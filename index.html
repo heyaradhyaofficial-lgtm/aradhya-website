@@ -1,105 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aradhya – Official Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #fefefe;
-            color: #111;
-        }
-        header, section, footer {
-            padding: 40px 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-        header {
-            text-align: center;
-            background: #ffe6f0;
-        }
-        header h1 {
-            margin-bottom: 10px;
-            font-size: 2.5em;
-        }
-        header p {
-            font-size: 1.2em;
-        }
-        section h2 {
-            color: #d6336c;
-            margin-top: 0;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        a {
-            color: #d6336c;
-            text-decoration: none;
-        }
-        .invoice {
-            margin-top: 20px;
-            text-align: center;
-        }
-        .invoice img {
-            max-width: 300px;
-            border: 1px solid #ccc;
-        }
-        footer {
-            text-align: center;
-            font-size: 0.9em;
-            color: #555;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Aradhya – official creator website. Digital creator consultations and exclusive membership content. Transparent pricing, policies, and contact details." />
+  <title>Aradhya – Official Creator Website</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #222222;
+      --muted: #666666;
+      --accent: #0f766e;
+      --border: #eaeaea;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      color: var(--fg);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    header {
+      padding: 64px 20px 24px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      letter-spacing: -0.02em;
+    }
+    header p {
+      margin: 6px 0 0;
+      color: var(--muted);
+    }
+    nav {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px 16px 24px;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 40px;
+    }
+    section {
+      padding: 28px 0;
+      border-top: 1px solid var(--border);
+    }
+    section:first-of-type { border-top: none; }
+    h2 {
+      margin: 0 0 8px;
+      font-size: 1.6rem;
+      letter-spacing: -0.01em;
+    }
+    p { margin: 10px 0; }
+    ul { margin: 10px 0 0 18px; }
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px;
+      margin: 12px 0;
+    }
+    .price {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    .muted { color: var(--muted); }
+    .contact a { color: var(--accent); text-decoration: none; }
+    .contact a:hover { text-decoration: underline; }
+    footer {
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 22px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Aradhya – Official Creator Website</h1>
+    <p class="muted">Digital creator consultations &amp; exclusive membership content</p>
+  </header>
 
-<header>
-    <h1>Aradhya – Official Website</h1>
-    <p>Your exclusive AI-powered premium chat & VIP content experience</p>
-</header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#terms">Terms</a>
+    <a href="#refunds">Refunds</a>
+    <a href="#privacy">Privacy</a>
+    <a href="#shipping">Delivery</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-<section id="about">
-    <h2>About Aradhya</h2>
-    <p>Aradhya is a mysterious and elegant AI persona offering premium 5-minute chats and exclusive VIP content via Telegram. Join her private space to explore personalized interactions, romantic texts, and bold, flirty experiences designed for her fans.</p>
-</section>
+  <main>
+    <section id="about">
+      <h2>About Aradhya</h2>
+      <p>Aradhya is a digital creator offering unique, personalized experiences through exclusive online sessions and premium community memberships. Her content is crafted to connect with audiences emotionally and creatively, giving members access to authentic, one-of-a-kind interactions.</p>
+    </section>
 
-<section id="pricing">
-    <h2>Pricing</h2>
-    <ul>
-        <li>5-minute chat: ₹399</li>
-        <li>VIP Telegram group: ₹199/month</li>
-    </ul>
-</section>
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <div class="card">
+        <div class="price">
+          <span>Premium Interaction (one-time, 5 minutes)</span>
+          <span>₹399</span>
+        </div>
+        <p class="muted">A short, personalised digital consultation delivered online.</p>
+      </div>
+      <div class="card">
+        <div class="price">
+          <span>VIP Community Membership (monthly)</span>
+          <span>₹199</span>
+        </div>
+        <p class="muted">Access to Aradhya’s exclusive creator group with special updates and member-only content.</p>
+      </div>
+    </section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:heyaradhyaofficial@gmail.com">heyaradhyaofficial@gmail.com</a></p>
-    <p>Phone: +91-8902864730</p>
-</section>
+    <section id="terms">
+      <h2>Terms &amp; Conditions</h2>
+      <p>All services are digital and delivered online. Users are expected to follow community rules and respect Aradhya’s persona. The brand reserves the right to modify services at any time. By using this website, you agree to these terms and conditions.</p>
+    </section>
 
-<section id="policies">
-    <h2>Terms & Conditions</h2>
-    <p>All chat sessions and VIP subscriptions are paid services. Users are expected to follow community rules and respect Aradhya’s persona. The brand reserves the right to modify services at any time. By using this website, you agree to the outlined terms and conditions.</p>
+    <section id="refunds">
+      <h2>Cancellation &amp; Refund Policy</h2>
+      <p>Premium consultations are non-refundable. Memberships can be cancelled via email at least 24 hours before renewal. Refunds are processed only for technical issues confirmed by the admin. All requests should be sent to <a href="mailto:heyaradhyaofficial@gmail.com">heyaradhyaofficial@gmail.com</a>.</p>
+    </section>
 
-    <h2>Privacy Policy</h2>
-    <p>We collect minimal personal information required for processing payments via Razorpay only. All user data is securely stored and not shared with third parties. Payment details are handled securely by Razorpay. No cookies or tracking tools are used.</p>
+    <section id="privacy">
+      <h2>Privacy Policy</h2>
+      <p>We collect minimal personal information required for processing payments via our payment gateway provider. All user data is securely stored and not shared with third parties. Payment details are handled securely by the provider. No advertising trackers are used on this website.</p>
+    </section>
 
-    <h2>Cancellation & Refund Policy</h2>
-    <p>5-minute chat sessions are <strong>non-refundable</strong>. VIP group subscriptions can be canceled via email at least 24 hours before renewal. Refunds are only processed in case of technical issues confirmed by the admin. All requests should be sent to heyaradhyaofficial@gmail.com.</p>
+    <section id="shipping">
+      <h2>Shipping &amp; Delivery Policy</h2>
+      <p>All services are delivered digitally via chat or online channels after payment confirmation. No physical shipping is involved.</p>
+    </section>
 
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:heyaradhyaofficial@gmail.com">heyaradhyaofficial@gmail.com</a></p>
+      <p>Phone: +91-8902864730</p>
+    </section>
+  </main>
 
-    <h2>Shipping & Delivery Policy</h2>
-    <p>All services are delivered digitally via chat or online channels immediately after payment confirmation. No physical shipping is involved.</p>
-
-</section>
-
-<footer>
+  <footer>
     &copy; 2025 Aradhya. All rights reserved.
-</footer>
-
+  </footer>
 </body>
 </html>
